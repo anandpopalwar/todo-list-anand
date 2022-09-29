@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOs list by anand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+    <div class="input_container">
+        <h3>TODOs list by anand</h3>
+        <div class="d-none" id="alert">
+            <h5 class="alertMsg" id="alertMsg"></h5>
+            <!-- <h5 class="danger">blank task can't be added!!</h5> -->
+        </div>
+        <!-- <input type="text" id="title" placeholder="enter title of task"> -->
+        <textarea name="discription" id="discription" cols="3" rows="3"
+            placeholder="enter discription of task"></textarea>
+        <button onclick="submit()">add</button>
+    </div>
+
+    <br>
+    <h2 id="yourtasks"></h2>
+    <br>
+
+
+    <!-- outer division for flex to control the child layout -->
+    <div class="user-container" id="userContainer" style="display:flex; justify-content:space-between">
+    
+        <!-- <div class="inner-card">
+            <span>no</span>
+            <h1>description</h1>
+            <input type="checkbox" name="" id="">
+        </div> -->
+
+    </div>
+
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
